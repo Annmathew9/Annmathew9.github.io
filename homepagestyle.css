@@ -1,0 +1,156 @@
+*{
+  margin: 0px;
+  padding:0px;
+  }
+
+  .grid{
+  display: grid;
+
+  grid-template-columns: 0.5fr 3fr 3fr 3fr;
+  grid-template-rows: 0.5fr 0.2fr 2fr 0.1fr;
+  grid-template-areas:
+  "one two three three"
+  "four five six seven"
+  "eight nine ten eleven"
+  "twelve thirteen fourteen fifteen";
+  }
+
+
+  .one
+  {
+	 grid-area: one;
+   background-color:#fdda0d;
+   padding: 20px;
+
+
+  }
+
+  .two
+  {
+	  grid: two;
+    background-color:#fdda0d;
+     font-size: 32;
+    text-align: left;
+    padding: 20px;
+
+  }
+
+  .three
+  {
+	  grid-area: three;
+    background-color:#fdda0d;
+    padding: 20px;
+  }
+
+  .four
+  {
+	  grid-area: four;
+	   background-color:#fdda0d;
+
+  }
+
+  .five
+  {
+	  grid-area: five;
+    background-color:#fdda0d;
+      text-align: center;
+      padding-top: 20px
+  }
+.five:hover{
+  background-color:#f6e376;
+
+}
+  .six
+  {
+  grid-area: six;
+  background-color:#fdda0d;
+  text-align: center;
+  padding-top: 20px
+  }
+
+  .six:hover{
+    background-color:#f6e376;
+  }
+  .seven
+  {
+	  grid-area: seven;
+    background-color:#fdda0d;
+    text-align: center;
+    padding-top: 20px
+
+  }
+  .seven:hover{
+    background-color:#f6e376;
+  }
+
+
+  .eight
+  {
+	  grid-area: eight;
+  }
+
+  .vericaltext{
+    width:1px;
+    word-wrap: break-word;
+    font-family: monospace; /* this is just for good looks */
+    white-space: pre;/* this is for displaying whitespaces */
+}
+
+    .nine
+    {
+      grid-area: nine;
+      padding-top: 75px;
+      padding-left: 50px;
+    }
+
+    .ten
+    {
+      grid-area: ten;
+      padding-top: 75px;
+      padding-left: 50px;
+    }
+
+    .eleven
+{
+  grid-area: eleven;
+  padding-top: 75px;
+  padding-left: 50px;
+}
+
+.twelve
+{
+  grid-area: twelve;
+  background-color:#8c8c8c;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.thirteen
+{
+  grid-area: thirteen;
+  background-color:#8c8c8c;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  color: #ffffff;
+  font-family: palantino;
+}
+
+.fourteen
+{
+  grid-area: fourteen;
+  background-color:#8c8c8c;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.fifteen
+{
+  grid-area: fifteen;
+  background-color:#8c8c8c;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
