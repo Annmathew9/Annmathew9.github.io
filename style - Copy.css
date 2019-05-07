@@ -1,0 +1,68 @@
+*{
+  margin: 0px;
+  padding: 10px;
+  }
+
+  .grid{
+  display: grid;
+
+  grid-template-columns: 0.75fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas:
+  "one two three three three"
+  "four five six seven eight";
+  }
+
+
+  .one
+  {
+	 grid-area: one;
+   background-color:#ffcccc;
+
+  }
+
+  .two
+  {
+	  grid: two;
+    background-color:#ffcccc;
+
+  }
+
+  .three
+  {
+	  grid-area: three;
+    background-color:#ffcccc;
+  }
+
+  .four
+  {
+	  grid-area: four;
+
+  }
+
+  .five
+  {
+	  grid-area: five;
+  }
+
+  .six
+  {
+  grid-area: six;
+  }
+
+  .seven
+  {
+	  grid-area: seven;
+  }
+
+  .eight
+  {
+	  grid-area: eight;
+  }
+  
+  .vericaltext{
+    width:1px;
+    word-wrap: break-word;
+    font-family: monospace; /* this is just for good looks */
+    white-space: pre;/* this is for displaying whitespaces */
+}
